@@ -125,4 +125,6 @@ if ( wpcom_vip_should_load_plugins() ) {
 	unset( $client_mu_plugin );
 }
 
+do_action( 'vip_client_mu_plugins_loaded' );
+
 // @codeCoverageIgnoreEnd
